@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+
+<h4>{{object.name}}</h4>
+<h4>{{object.email}}</h4>
+<img src="{{object.pic.url}}" alt="No Image Found" height="350" width="350"> 
+<a href="{{object.pdf.url}}"  download >  <h3>View Resume</h3></a>
+
+{% endblock %}
